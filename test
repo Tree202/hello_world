@@ -1,0 +1,10 @@
+3.3. git clone 克隆项目
+//直接克隆:直接将xxxxx.git相关项目克隆到当前目录下
+git clone xxxxx.git
+//制定目录克隆：将xxxxx.git相关项目克隆到制定目录下
+git clone xxxxx.git mydemo
+//新建分支克隆:克隆时创建新的分支代替master
+git clone -b new_branch_name xxxxx.git
+//在本地新建同名的(“dev”)分支，并切换到该分支
+git checkout -t origin/dev
+git checkout -b dev origin/dev
